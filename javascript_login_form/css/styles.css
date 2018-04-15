@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+}
+#container{
+    background-color: darkolivegreen;
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 300px;
+    text-align: center;
+    border: 1px solid black;
+}
+input[type="text"]{
+    font-size: 20px;
+}
+input[type="password"]{
+    margin-top: 10px;
+    font-size: 20px;
+}
+input[type="submit"]{
+    font-size: 20px;
+}
