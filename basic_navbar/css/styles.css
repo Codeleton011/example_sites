@@ -1,3 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    font-family: Arial;
+    font-weight: 300;
+}
+
 nav{
     float: left;
+}
+
+ul{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #43f2a6;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    padding: 15px 10px;
+    font-size: 20px;
+}
+
+li:hover{
+    background-color: aquamarine;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
 }
