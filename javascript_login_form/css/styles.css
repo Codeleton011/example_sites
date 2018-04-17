@@ -2,6 +2,9 @@ body{
     margin: 0;
     padding: 0;
     background-color: #222;
+
+    font-family: Courier;
+    font-weight: 100;
 }
 #container{
     background-color: darkolivegreen;

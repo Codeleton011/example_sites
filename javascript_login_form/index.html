@@ -14,7 +14,6 @@
             <input type="text" name="username" id="username" placeholder="Username"><br>
             <input type="password" name="password" id="password" placeholder="Password"><br>
             <input type="submit" name="submit" value="Login" onclick="login()">
-            <p id="stat">.</p>
         </form>
     </div>
 
@@ -23,13 +22,13 @@
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
 
-            if(username == "Admin" && password == "pwd123"){
-                document.getElementById("stat").value = "Successfully login!";
-            }else if(username.value == "" || password.value == ""){
-                document.getElementById("stat").value = "Please fill all boxes!";
+            if(username == "Admin" && password == "pwd123"){ // Sucessfully login
+                alert("Successfully login!")
+            }else if(username.value == "" || password.value == ""){ // Empty areas
+                alert("Please fill all textboxes!");
             }
-            else{
-                document.getElementById("stat").value = "Bad login!";
+            else{ // Bad login
+                alert("Bad login!");
 
             }
         }
